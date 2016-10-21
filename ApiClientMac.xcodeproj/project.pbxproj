@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F258C131DB9FB66006E54EC /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F258C111DB9FB66006E54EC /* SDL2_ttf.framework */; };
+		3F258C141DB9FB66006E54EC /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F258C121DB9FB66006E54EC /* SDL2.framework */; };
+		3F5DAB0E1DB768DA000FD65C /* libapicodec.0.0.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5DAB0D1DB768DA000FD65C /* libapicodec.0.0.1.dylib */; };
+		3F5DABB71DB76C84000FD65C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5DABB61DB76C84000FD65C /* libz.tbd */; };
+		3F5DABBE1DB7712D000FD65C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5DABBC1DB7712D000FD65C /* Cocoa.framework */; };
+		3F5DABBF1DB7712E000FD65C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5DABBD1DB7712D000FD65C /* CoreFoundation.framework */; };
+		3F5DABC51DB7B463000FD65C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F5DABC41DB7B463000FD65C /* main.cpp */; };
+		3F5DABC81DB7B4B7000FD65C /* Core.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F5DABC71DB7B4B7000FD65C /* Core.cpp */; };
+		3F5DABCB1DB8FB49000FD65C /* Etalonnage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F5DABC91DB8FB49000FD65C /* Etalonnage.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F5DAAE81DB75F70000FD65C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F258C111DB9FB66006E54EC /* SDL2_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_ttf.framework; path = ../../../Library/Frameworks/SDL2_ttf.framework; sourceTree = "<group>"; };
+		3F258C121DB9FB66006E54EC /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		3F5DAAEA1DB75F70000FD65C /* ApiClientMac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ApiClientMac; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F5DAB0D1DB768DA000FD65C /* libapicodec.0.0.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libapicodec.0.0.1.dylib; sourceTree = "<group>"; };
+		3F5DAB121DB769F7000FD65C /* ApiAutoStatusPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ApiAutoStatusPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB141DB769F7000FD65C /* ApiCameraExtrinsicsPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ApiCameraExtrinsicsPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB161DB769F7000FD65C /* ApiCameraIntrinsicsPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ApiCameraIntrinsicsPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB181DB769F7000FD65C /* ApiCommandPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ApiCommandPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB1A1DB769F7000FD65C /* ApiEnumResponsePacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ApiEnumResponsePacket.hpp; sourceTree = "<group>"; };
+		3F5DAB1C1DB769F7000FD65C /* ApiGprsPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ApiGprsPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB1E1DB769F7000FD65C /* ApiGpsPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ApiGpsPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB201DB769F7000FD65C /* ApiIhmAskEnumPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ApiIhmAskEnumPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB221DB769F7000FD65C /* ApiIhmAskValuePacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ApiIhmAskValuePacket.hpp; sourceTree = "<group>"; };
+		3F5DAB241DB769F7000FD65C /* ApiIhmDisplayPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ApiIhmDisplayPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB261DB769F7000FD65C /* ApiLidarPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ApiLidarPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB281DB769F7000FD65C /* ApiLogToRobotPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ApiLogToRobotPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB2A1DB769F7000FD65C /* ApiMessagePacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ApiMessagePacket.hpp; sourceTree = "<group>"; };
+		3F5DAB2C1DB769F7000FD65C /* ApiMotorsPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ApiMotorsPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB2E1DB769F7000FD65C /* ApiMoveActuatorPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ApiMoveActuatorPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB301DB769F7000FD65C /* ApiPostPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ApiPostPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB321DB769F7000FD65C /* ApiPressedIhmButtonPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ApiPressedIhmButtonPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB341DB769F7000FD65C /* ApiRunPlotPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ApiRunPlotPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB361DB769F7000FD65C /* ApiSmsPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ApiSmsPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB381DB769F7000FD65C /* ApiStatusPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ApiStatusPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB3A1DB769F7000FD65C /* ApiStereoCameraPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ApiStereoCameraPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB3C1DB769F7000FD65C /* ApiValueResponsePacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ApiValueResponsePacket.hpp; sourceTree = "<group>"; };
+		3F5DAB3E1DB769F7000FD65C /* ApiWatchdogPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ApiWatchdogPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB401DB769F7000FD65C /* BaseNaio01Packet.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BaseNaio01Packet.hpp; sourceTree = "<group>"; };
+		3F5DAB421DB769F7000FD65C /* HaAcceleroPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HaAcceleroPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB441DB769F7000FD65C /* HaActuatorPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HaActuatorPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB461DB769F7000FD65C /* HaCanPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HaCanPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB481DB769F7000FD65C /* HaDS4RemotePacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HaDS4RemotePacket.hpp; sourceTree = "<group>"; };
+		3F5DAB4A1DB769F7000FD65C /* HaGpsPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HaGpsPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB4C1DB769F7000FD65C /* HaGyroPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HaGyroPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB4E1DB769F7000FD65C /* HaKeypadPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HaKeypadPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB501DB769F7000FD65C /* HaLedPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HaLedPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB521DB769F7000FD65C /* HaLidarPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HaLidarPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB541DB769F7000FD65C /* HaMagnetoPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HaMagnetoPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB561DB769F7000FD65C /* HaMotorsPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HaMotorsPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB581DB769F7000FD65C /* HaOdoPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HaOdoPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB5A1DB769F7000FD65C /* HaScreenPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HaScreenPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB5C1DB769F7000FD65C /* HaSpeakerPacket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HaSpeakerPacket.hpp; sourceTree = "<group>"; };
+		3F5DAB5E1DB769F7000FD65C /* Naio01Codec.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Naio01Codec.hpp; sourceTree = "<group>"; };
+		3F5DAB9F1DB76ADF000FD65C /* CLArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLArray.h; sourceTree = "<group>"; };
+		3F5DABA11DB76ADF000FD65C /* CLBaseException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLBaseException.h; sourceTree = "<group>"; };
+		3F5DABA31DB76ADF000FD65C /* CLBuffer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CLBuffer.hpp; sourceTree = "<group>"; };
+		3F5DABA51DB76ADF000FD65C /* CLByteConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLByteConversion.h; sourceTree = "<group>"; };
+		3F5DABA71DB76ADF000FD65C /* CLException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLException.h; sourceTree = "<group>"; };
+		3F5DABA81DB76ADF000FD65C /* CLTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTypes.h; sourceTree = "<group>"; };
+		3F5DABA91DB76ADF000FD65C /* Format.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Format.hpp; sourceTree = "<group>"; };
+		3F5DABAA1DB76ADF000FD65C /* Macros.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Macros.hpp; sourceTree = "<group>"; };
+		3F5DABAC1DB76ADF000FD65C /* Print.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Print.hpp; sourceTree = "<group>"; };
+		3F5DABAD1DB76ADF000FD65C /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		3F5DABAF1DB76ADF000FD65C /* Utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Utils.hpp; sourceTree = "<group>"; };
+		3F5DABB61DB76C84000FD65C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3F5DABBC1DB7712D000FD65C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3F5DABBD1DB7712D000FD65C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		3F5DABC41DB7B463000FD65C /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3F5DABC61DB7B484000FD65C /* Core.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Core.hpp; sourceTree = "<group>"; };
+		3F5DABC71DB7B4B7000FD65C /* Core.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Core.cpp; sourceTree = "<group>"; };
+		3F5DABC91DB8FB49000FD65C /* Etalonnage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Etalonnage.cpp; sourceTree = "<group>"; };
+		3F5DABCA1DB8FB49000FD65C /* Etalonnage.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Etalonnage.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F5DAAE71DB75F70000FD65C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F258C131DB9FB66006E54EC /* SDL2_ttf.framework in Frameworks */,
+				3F258C141DB9FB66006E54EC /* SDL2.framework in Frameworks */,
+				3F5DABBE1DB7712D000FD65C /* Cocoa.framework in Frameworks */,
+				3F5DABBF1DB7712E000FD65C /* CoreFoundation.framework in Frameworks */,
+				3F5DABB71DB76C84000FD65C /* libz.tbd in Frameworks */,
+				3F5DAB0E1DB768DA000FD65C /* libapicodec.0.0.1.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F5DAAE11DB75F70000FD65C = {
+			isa = PBXGroup;
+			children = (
+				3F5DAAEC1DB75F70000FD65C /* ApiClientMac */,
+				3F5DAAEB1DB75F70000FD65C /* Products */,
+				3F5DAAFB1DB76069000FD65C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F5DAAEB1DB75F70000FD65C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F5DAAEA1DB75F70000FD65C /* ApiClientMac */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F5DAAEC1DB75F70000FD65C /* ApiClientMac */ = {
+			isa = PBXGroup;
+			children = (
+				3F5DABCC1DB91B1E000FD65C /* sources */,
+				3F5DAB871DB76AC5000FD65C /* vitals */,
+				3F5DAB101DB769E6000FD65C /* ApiCodec */,
+				3F5DABC41DB7B463000FD65C /* main.cpp */,
+			);
+			path = ApiClientMac;
+			sourceTree = "<group>";
+		};
+		3F5DAAFB1DB76069000FD65C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F258C111DB9FB66006E54EC /* SDL2_ttf.framework */,
+				3F258C121DB9FB66006E54EC /* SDL2.framework */,
+				3F5DABBC1DB7712D000FD65C /* Cocoa.framework */,
+				3F5DABBD1DB7712D000FD65C /* CoreFoundation.framework */,
+				3F5DABB61DB76C84000FD65C /* libz.tbd */,
+				3F5DAB0D1DB768DA000FD65C /* libapicodec.0.0.1.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F5DAB101DB769E6000FD65C /* ApiCodec */ = {
+			isa = PBXGroup;
+			children = (
+				3F5DAB121DB769F7000FD65C /* ApiAutoStatusPacket.hpp */,
+				3F5DAB141DB769F7000FD65C /* ApiCameraExtrinsicsPacket.hpp */,
+				3F5DAB161DB769F7000FD65C /* ApiCameraIntrinsicsPacket.hpp */,
+				3F5DAB181DB769F7000FD65C /* ApiCommandPacket.hpp */,
+				3F5DAB1A1DB769F7000FD65C /* ApiEnumResponsePacket.hpp */,
+				3F5DAB1C1DB769F7000FD65C /* ApiGprsPacket.hpp */,
+				3F5DAB1E1DB769F7000FD65C /* ApiGpsPacket.hpp */,
+				3F5DAB201DB769F7000FD65C /* ApiIhmAskEnumPacket.hpp */,
+				3F5DAB221DB769F7000FD65C /* ApiIhmAskValuePacket.hpp */,
+				3F5DAB241DB769F7000FD65C /* ApiIhmDisplayPacket.hpp */,
+				3F5DAB261DB769F7000FD65C /* ApiLidarPacket.hpp */,
+				3F5DAB281DB769F7000FD65C /* ApiLogToRobotPacket.hpp */,
+				3F5DAB2A1DB769F7000FD65C /* ApiMessagePacket.hpp */,
+				3F5DAB2C1DB769F7000FD65C /* ApiMotorsPacket.hpp */,
+				3F5DAB2E1DB769F7000FD65C /* ApiMoveActuatorPacket.hpp */,
+				3F5DAB301DB769F7000FD65C /* ApiPostPacket.hpp */,
+				3F5DAB321DB769F7000FD65C /* ApiPressedIhmButtonPacket.hpp */,
+				3F5DAB341DB769F7000FD65C /* ApiRunPlotPacket.hpp */,
+				3F5DAB361DB769F7000FD65C /* ApiSmsPacket.hpp */,
+				3F5DAB381DB769F7000FD65C /* ApiStatusPacket.hpp */,
+				3F5DAB3A1DB769F7000FD65C /* ApiStereoCameraPacket.hpp */,
+				3F5DAB3C1DB769F7000FD65C /* ApiValueResponsePacket.hpp */,
+				3F5DAB3E1DB769F7000FD65C /* ApiWatchdogPacket.hpp */,
+				3F5DAB401DB769F7000FD65C /* BaseNaio01Packet.hpp */,
+				3F5DAB421DB769F7000FD65C /* HaAcceleroPacket.hpp */,
+				3F5DAB441DB769F7000FD65C /* HaActuatorPacket.hpp */,
+				3F5DAB461DB769F7000FD65C /* HaCanPacket.hpp */,
+				3F5DAB481DB769F7000FD65C /* HaDS4RemotePacket.hpp */,
+				3F5DAB4A1DB769F7000FD65C /* HaGpsPacket.hpp */,
+				3F5DAB4C1DB769F7000FD65C /* HaGyroPacket.hpp */,
+				3F5DAB4E1DB769F7000FD65C /* HaKeypadPacket.hpp */,
+				3F5DAB501DB769F7000FD65C /* HaLedPacket.hpp */,
+				3F5DAB521DB769F7000FD65C /* HaLidarPacket.hpp */,
+				3F5DAB541DB769F7000FD65C /* HaMagnetoPacket.hpp */,
+				3F5DAB561DB769F7000FD65C /* HaMotorsPacket.hpp */,
+				3F5DAB581DB769F7000FD65C /* HaOdoPacket.hpp */,
+				3F5DAB5A1DB769F7000FD65C /* HaScreenPacket.hpp */,
+				3F5DAB5C1DB769F7000FD65C /* HaSpeakerPacket.hpp */,
+				3F5DAB5E1DB769F7000FD65C /* Naio01Codec.hpp */,
+			);
+			name = ApiCodec;
+			sourceTree = "<group>";
+		};
+		3F5DAB871DB76AC5000FD65C /* vitals */ = {
+			isa = PBXGroup;
+			children = (
+				3F5DAB9F1DB76ADF000FD65C /* CLArray.h */,
+				3F5DABA11DB76ADF000FD65C /* CLBaseException.h */,
+				3F5DABA31DB76ADF000FD65C /* CLBuffer.hpp */,
+				3F5DABA51DB76ADF000FD65C /* CLByteConversion.h */,
+				3F5DABA71DB76ADF000FD65C /* CLException.h */,
+				3F5DABA81DB76ADF000FD65C /* CLTypes.h */,
+				3F5DABA91DB76ADF000FD65C /* Format.hpp */,
+				3F5DABAA1DB76ADF000FD65C /* Macros.hpp */,
+				3F5DABAC1DB76ADF000FD65C /* Print.hpp */,
+				3F5DABAD1DB76ADF000FD65C /* Types.h */,
+				3F5DABAF1DB76ADF000FD65C /* Utils.hpp */,
+			);
+			name = vitals;
+			sourceTree = "<group>";
+		};
+		3F5DABCC1DB91B1E000FD65C /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				3F5DABC61DB7B484000FD65C /* Core.hpp */,
+				3F5DABC71DB7B4B7000FD65C /* Core.cpp */,
+				3F5DABC91DB8FB49000FD65C /* Etalonnage.cpp */,
+				3F5DABCA1DB8FB49000FD65C /* Etalonnage.hpp */,
+			);
+			name = sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F5DAAE91DB75F70000FD65C /* ApiClientMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F5DAAF11DB75F70000FD65C /* Build configuration list for PBXNativeTarget "ApiClientMac" */;
+			buildPhases = (
+				3F5DAAE61DB75F70000FD65C /* Sources */,
+				3F5DAAE71DB75F70000FD65C /* Frameworks */,
+				3F5DAAE81DB75F70000FD65C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApiClientMac;
+			productName = ApiClientMac;
+			productReference = 3F5DAAEA1DB75F70000FD65C /* ApiClientMac */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F5DAAE21DB75F70000FD65C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Imerir;
+				TargetAttributes = {
+					3F5DAAE91DB75F70000FD65C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3F5DAAE51DB75F70000FD65C /* Build configuration list for PBXProject "ApiClientMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F5DAAE11DB75F70000FD65C;
+			productRefGroup = 3F5DAAEB1DB75F70000FD65C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F5DAAE91DB75F70000FD65C /* ApiClientMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F5DAAE61DB75F70000FD65C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5DABCB1DB8FB49000FD65C /* Etalonnage.cpp in Sources */,
+				3F5DABC81DB7B4B7000FD65C /* Core.cpp in Sources */,
+				3F5DABC51DB7B463000FD65C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3F5DAAEF1DB75F70000FD65C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3F5DAAF01DB75F70000FD65C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3F5DAAF21DB75F70000FD65C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = c11;
+				LD_DYLIB_INSTALL_NAME = /Applications/ApiClientMac/libapicodec.0.0.1.dylib;
+				LD_RUNPATH_SEARCH_PATHS = "\"$(SRCROOT)/\"";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SRCROOT)/",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F5DAAF31DB75F70000FD65C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = c11;
+				LD_DYLIB_INSTALL_NAME = /Applications/ApiClientMac/libapicodec.0.0.1.dylib;
+				LD_RUNPATH_SEARCH_PATHS = "\"$(SRCROOT)/\"";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SRCROOT)/",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F5DAAE51DB75F70000FD65C /* Build configuration list for PBXProject "ApiClientMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F5DAAEF1DB75F70000FD65C /* Debug */,
+				3F5DAAF01DB75F70000FD65C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3F5DAAF11DB75F70000FD65C /* Build configuration list for PBXNativeTarget "ApiClientMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F5DAAF21DB75F70000FD65C /* Debug */,
+				3F5DAAF31DB75F70000FD65C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F5DAAE21DB75F70000FD65C /* Project object */;
+}
